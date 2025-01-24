@@ -38,12 +38,12 @@ function Workout() {
       setError("Both Fields Are Required")
       return;
     }
-    const url = `https://exercises-by-api-ninjas.p.rapidapi.com/v1/exercises?muscle=${Muscle}&difficulty=${Level}`;
+    const url = "API URL";
     const options = {
       method: 'GET',
       headers: {
-        'x-rapidapi-key': "5365255728msh2734ab611bbba47p15118bjsn993875de561d",
-        'x-rapidapi-host': "exercises-by-api-ninjas.p.rapidapi.com"
+        'x-rapidapi-key': "key",
+        'x-rapidapi-host': ""
       }
     };
 
