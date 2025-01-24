@@ -60,7 +60,7 @@ function Merchandise() {
     const order = await response.json();
 
     const options = {
-      key: 'rzp_test_IxsKHU3MtDs4XJ',
+      key: 'key',
       amount: order.amount,
       currency: 'INR',
       name: 'Fit-Freaks',
