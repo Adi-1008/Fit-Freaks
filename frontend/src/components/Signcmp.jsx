@@ -23,7 +23,7 @@ export default function Signcmp() {
   useEffect(() => {
     /* global google */
     google.accounts.id.initialize({
-      client_id: "501085902286-sh89sf6ffsrh35t7mlqjkkmgkrk0hli0.apps.googleusercontent.com",
+      client_id: "id",
       callback: handleGoogleSignIn,
     });
     google.accounts.id.renderButton(
