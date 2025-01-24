@@ -59,13 +59,13 @@ function Diet() {
   }, []);
 
   const handleSubmit = async () => {
-    const url = `https://nutrition-calculator.p.rapidapi.com/api/nutrition-info?measurement_units=std&sex=${Gender}&age_value=${Age}&age_type=yrs&feet=${HeightFt}&inches=${HeightIn}&lbs=${Weight}&activity_level=${Activity}`;
+    const url = `url`;
 
     const options = {
       method: 'GET',
       headers: {
-        'x-rapidapi-key': "5365255728msh2734ab611bbba47p15118bjsn993875de561d",
-        'x-rapidapi-host': "nutrition-calculator.p.rapidapi.com"
+        'x-rapidapi-key': "key",
+        'x-rapidapi-host': ""
       }
     };
 
